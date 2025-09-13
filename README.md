@@ -30,12 +30,13 @@ Installation
 
 Clone the repository:
 
-bash
 git clone <your-repo-url>
+
 cd news-reader-api
 
+News Endpoints
 1. Get News by Category
-2. 
+
 Endpoint: GET /news/{category}
 
 Response:
@@ -47,7 +48,6 @@ json
   "articles": [
     {
       "title": "Apple Announces New iPhone", 
-      
       "description": "Apple unveiled its latest iPhone with groundbreaking features...",
       "url": "https://example.com/apple-iphone",
       "urlToImage": "https://example.com/image.jpg",
