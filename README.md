@@ -22,7 +22,7 @@ MongoDB (local or Atlas)
 
 NewsAPI account (free tier available)
 
-**VIEW API**(https://news-reader-api.vercel.app/docs)
+[**VIEW API**](https://news-reader-api.vercel.app/docs)
 
 Installation
 Clone the repository:
