@@ -17,7 +17,7 @@ NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
 
 tags_metadata = [
     {
-        "name": "News",
+        "name": " News",
         "description": "Fetch live news articles from NewsAPI",
     },
     {
@@ -39,7 +39,7 @@ app = FastAPI(
 # Homepage
 @app.get("/", tags=["News"])
 def get_home():
-    return {"message": "Welcome to News Reader API! Use /docs to explore the endpoints."}
+    return {"message": "Welcome to Shoto News Reader API! "}
 
 # Get news by category
 @app.get("/news/{category}", tags=["News"])
@@ -67,7 +67,7 @@ def get_news_by_category(category: str, country: str = "us", page_size: int = 10
     params = {
         "category": category.lower(),
         "country": country.lower(),
-        "pageSize": min(page_size, 100),  # NewsAPI max is 100
+        "pageSize": min(page_size, 100),  
         "apiKey": NEWS_API_KEY
     }
     
@@ -114,14 +114,7 @@ def save_article(
     category: Annotated[str, Form()],
     description: Annotated[str, Form()] = ""
 ):
-    """
-    Save an article to your personal collection
-    
-    - **title**: Article title
-    - **url**: Article URL
-    - **category**: Article category
-    - **description**: Article description (optional)
-    """
+
     # Check if article already exists
     existing_article = saved_articles_collection.find_one({"url": url})
     if existing_article:
