@@ -33,15 +33,15 @@ cd news-reader-api
 
 1. Get News by Category
 Endpoint: GET /news/{category}
-Response:
 
+Response:
 json
 {
   "category": "technology",
   "totalResults": 70,
   "articles": [
     {
-      "title": "Apple Announces New iPhone",
+      "title": "Apple Announces New iPhone", 
       
       "description": "Apple unveiled its latest iPhone with groundbreaking features...",
       "url": "https://example.com/apple-iphone",
