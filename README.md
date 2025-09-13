@@ -39,6 +39,7 @@ cd news-reader-api
 Endpoint: GET /news/{category}
 
 Response:
+
 json
 {
   "category": "technology",
