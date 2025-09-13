@@ -1,6 +1,7 @@
 
 
-**shoto News Reader API**
+**News Reader API**
+
 A FastAPI-based news reader application that fetches articles from us NewsAPI and allows users to save their favorite articles to a MongoDB database.
 
 Features
@@ -20,7 +21,9 @@ Python 3.7+
 MongoDB (local or Atlas)
 
 NewsAPI account (free tier available)
-**VIEW API** (https://news-reader-api.vercel.app/docs)
+
+**VIEW API**(https://news-reader-api.vercel.app/docs)
+
 Installation
 Clone the repository:
 
