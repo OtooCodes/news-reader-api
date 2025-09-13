@@ -42,6 +42,7 @@ json
   "articles": [
     {
       "title": "Apple Announces New iPhone",
+      
       "description": "Apple unveiled its latest iPhone with groundbreaking features...",
       "url": "https://example.com/apple-iphone",
       "urlToImage": "https://example.com/image.jpg",
