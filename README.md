@@ -16,6 +16,7 @@ Get a daily digest of the last 5 saved articles
 Delete saved articles
 
 Prerequisites
+
 Python 3.7+
 
 MongoDB (local or Atlas)
@@ -24,7 +25,9 @@ NewsAPI account (free tier available)
 
 [**VIEW API**](https://news-reader-api.vercel.app/docs)
 
+
 Installation
+
 Clone the repository:
 
 bash
@@ -32,6 +35,7 @@ git clone <your-repo-url>
 cd news-reader-api
 
 1. Get News by Category
+2. 
 Endpoint: GET /news/{category}
 
 Response:
