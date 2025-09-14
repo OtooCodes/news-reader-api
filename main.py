@@ -33,7 +33,7 @@ app = FastAPI(
 
 
 # -------------------------------
-# Root endpoint
+# Homepage endpoint
 # -------------------------------
 @app.get("/", tags=["News"])
 def get_home():
